@@ -8,6 +8,7 @@ const app = express()
 // middleware, which will process into json before
 // endpoints use them
 // order of this matters (use before or after routes carefully!)
+app.use(express.static('build'))
 app.use(cors())
 app.use(morgan('tiny'))
 app.use(express.json())
