@@ -13,3 +13,18 @@ content-type: application/json
     "name": "Rock",
     "number": "um"
 }
+
+###
+PUT http://localhost:3001/api/persons/6403ef53ae0f34ace029855e
+content-type: application/json
+
+{
+    "name": "Rock",
+    "number": "um"
+}
+
+###
+GET http://localhost:3001/api/persons/6403ef53ae0f34ace029855e
+
+###
+DELETE http://localhost:3001/api/persons/6403efe0f1e8436ac144e2a3
